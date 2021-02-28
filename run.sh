@@ -1,0 +1,1 @@
+gradle wrapper && adb -s emulator-5554 install -t app/build/outputs/apk/debug/app-debug.apk && adb logcat \*:I
